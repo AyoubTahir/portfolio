@@ -1,5 +1,4 @@
 import { Request, Response, NextFunction } from 'express';
-import { StatusCodes } from 'http-status-codes';
 import { HttpException } from '../exceptions';
 
 export interface IerrorMiddleware {
